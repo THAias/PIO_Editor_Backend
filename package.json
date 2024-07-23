@@ -1,6 +1,6 @@
 {
   "name": "pio_editor_backend",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "test:ci": "jest --coverage --runInBand",
@@ -15,8 +15,8 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@thaias/pio_editor_meta": "1.1.7",
-    "@thaias/pio_fhir_resources": "^2.3.16",
+    "@thaias/pio_editor_meta": "1.1.9",
+    "@thaias/pio_fhir_resources": "^2.3.17",
     "@types/ioredis": "^5.0.0",
     "@types/nodemailer": "^6.4.15",
     "axios": "^1.7.2",
