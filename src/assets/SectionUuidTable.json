@@ -1,0 +1,63 @@
+{
+    "patientenAdressbuch": [
+        "KBV_PR_MIO_ULB_CareTeam",
+        "KBV_PR_MIO_ULB_PractitionerRole",
+        "KBV_PR_MIO_ULB_RelatedPerson_Contact_Person"
+    ],
+    "pflegegrad": ["KBV_PR_MIO_ULB_Observation_Care_Level"],
+    "gradDerBehinderung": ["KBV_PR_MIO_ULB_Observation_Degree_Of_Disability_Available"],
+    "pflegeDurchAngehoerige": ["KBV_PR_MIO_ULB_Observation_Care_By_Relatives"],
+    "benachrichtigungVonAn-undZugehoerigen": ["KBV_PR_MIO_ULB_Observation_Relatives_Notified"],
+    "mitgabeKrankenkassenkarte": ["KBV_PR_MIO_ULB_Observation_Health_Insurance_Card_Given"],
+    "zuzahlungsbefreiung": ["KBV_PR_MIO_ULB_Observation_Copayment_Exemption"],
+    "krankenhausaufenthalt": ["KBV_PR_MIO_ULB_Encounter_Hospital_Stay"],
+    "persoenlicheErklaerungenGesetzlicheBetreuung": [
+        "KBV_PR_MIO_ULB_Observation_Personal_Statements",
+        "KBV_PR_MIO_ULB_Observation_Information_Legal_Care"
+    ],
+    "relevanteInformationsquellen": ["KBV_PR_MIO_ULB_Provenance_Source_of_Information"],
+    "kommentar": ["KBV_PR_MIO_ULB_Observation_Comment"],
+    "mitgegebeneDokumenteArzneimittelHilfsmittelGegenstaende": [
+        "KBV_PR_MIO_ULB_Device_Aid",
+        "KBV_PR_MIO_ULB_Medication",
+        "KBV_PR_MIO_ULB_Provenance_Source_of_Information",
+        "KBV_PR_MIO_ULB_Device",
+        "KBV_PR_MIO_ULB_Device_Other_Item"
+    ],
+    "probleme": ["KBV_PR_MIO_ULB_Observation_Presence_Problems"],
+    "risiken": ["KBV_PR_MIO_ULB_Observation_Presence_Risks"],
+    "schmerzsymptomatik": ["KBV_PR_MIO_ULB_Observation_Pain"],
+    "ernaehrung": ["KBV_PR_MIO_ULB_Observation_Presence_Information_Nutrition"],
+    "raeumlicheIsolation": ["KBV_PR_MIO_ULB_Observation_Isolation_Necessary"],
+    "funktionsbeurteilungen": ["KBV_PR_MIO_ULB_Observation_Presence_Functional_Assessment"],
+    "medizinprodukte": ["KBV_PR_MIO_ULB_Observation_Relevant_Information_Medical_Devices"],
+    "allergienUndUnvertraeglichkeiten": ["KBV_PR_MIO_ULB_Observation_Presence_Allergies"],
+    "medikationsplan": ["KBV_PR_MIO_ULB_Observation_Information_Medicines"],
+    "orientierungPsyche": [
+        "KBV_PR_MIO_ULB_Observation_Cognitive_Awareness",
+        "KBV_PR_MIO_ULB_Observation_Orientation",
+        "KBV_PR_MIO_ULB_Observation_Assessment_Free"
+    ],
+    "vitalparameter": ["KBV_PR_MIO_ULB_DiagnosticReport_Vital_Signs_and_Body_Measures"],
+    "empfehlung": ["KBV_PR_MIO_ULB_CarePlan_Recommendation_Receiving_Institution"],
+    "pflegerischeMassnahme": ["KBV_PR_MIO_ULB_Procedure_Nursing_Measures"],
+    "auffaelligesVerhalten": ["KBV_PR_MIO_ULB_Observation_Striking_Behavior"],
+    "freiheitsentziehendeMassnahmen": ["KBV_PR_MIO_ULB_Observation_Deprivation_Liberty_Measures"],
+    "qualitativeBeschreibungAtmung": ["KBV_PR_MIO_ULB_Observation_Qualitative_Description_Breathing"],
+    "freitextAnEmpfangendeEinrichtung": ["KBV_PR_MIO_ULB_Observation_Message_Receiving_Institution"],
+    "anzahlStuerzeLetzte6Monate": ["KBV_PR_MIO_ULB_Observation_Falls_Last_6_Months"],
+    "atemwegszugang": ["KBV_PR_MIO_ULB_Observation_Respiratory_Access"],
+    "atmungsunterstuetzung": ["KBV_PR_MIO_ULB_Observation_Respiratory_Support"],
+    "harnkontinenzDifferenzierteEinschaetzung": [
+        "KBV_PR_MIO_ULB_Observation_Urinary_Continence_Differentiated_Assessment"
+    ],
+    "harnableitung": ["KBV_PR_MIO_ULB_Observation_Urinary_Drainage"],
+    "zeitpunktLetzteMiktion": ["KBV_PR_MIO_ULB_Observation_Last_Micturition"],
+    "stuhlkontinenzDifferenzierteEinschaetzung": [
+        "KBV_PR_MIO_ULB_Observation_Fecal_Continence_Differentiated_Assessment"
+    ],
+    "stuhlableitung": ["KBV_PR_MIO_ULB_Observation_Fecal_Drainage"],
+    "zeitpunktLetzterStuhlgang": ["KBV_PR_MIO_ULB_Observation_Last_Bowel_Movement"],
+    "patientenwunsch": ["KBV_PR_MIO_ULB_Observation_Wish"],
+    "assessmentFrei": ["KBV_PR_MIO_ULB_Observation_Assessment_Free"]
+}

@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+    db:
+        image: mongo:7.0
+        command: mongod --quiet --logpath /dev/null
+        healthcheck:
+            test: echo 'db.status().ok' | mongosh db:27017/test --quiet
+            interval: 10s
+            timeout: 10s
+            retries: 5
+        ports:
+            - "27017:27017"

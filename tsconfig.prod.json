@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "lib": ["dom", "dom.iterable", "esnext", "es2017"],
+        "rootDirs": [
+            "./src"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "commonJS",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": false,
+        "noImplicitAny": false,
+        "inlineSourceMap": true,
+        "sourceMap": false,
+        "outDir": "dist"
+    },
+    "include": [
+        "./src"
+    ]
+}

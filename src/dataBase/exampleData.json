@@ -1,0 +1,221 @@
+[
+    {
+        "id": "c6999316-faa8-4a17-9ffe-4717b59f5e90",
+        "name": "Bezirkskrankenhaus Berlin",
+        "type": "22232009",
+        "identifier": [
+            {
+                "label": "IK-Nummer",
+                "value": "123456789"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "email",
+                "value": "info@bzk-berlin.de",
+                "label": "E-Mail"
+            },
+            {
+                "system": "phone",
+                "value": "030-1234567",
+                "label": "Telefon"
+            }
+        ],
+        "address": [
+            {
+                "use": "work",
+                "postOfficeBoxRadio": "true",
+                "district": "Hoppegarten",
+                "postOfficeBoxNumber": "1234567",
+                "city": "Berlin",
+                "postalCode": "15366",
+                "country": "D"
+            },
+            {
+                "use": "billing",
+                "postOfficeBoxRadio": "false",
+                "district": "Hoppegarten",
+                "street": "Tulpenstraße",
+                "houseNumber": "3",
+                "city": "Berlin",
+                "postalCode": "15366",
+                "country": "D"
+            }
+        ]
+    },
+    {
+        "id": "820eb35d-0b72-4ca5-a56b-ca00648fe18b",
+        "name": "Universitätsklinikum Augsburg",
+        "type": "22232009",
+        "identifier": [
+            {
+                "label": "IK-Nummer",
+                "value": "123456788"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "email",
+                "value": "info@uniklinik-augsburg.de",
+                "label": "E-Mail"
+            },
+            {
+                "system": "phone",
+                "value": "0821345345",
+                "label": "Telefon"
+            }
+        ],
+        "address": [
+            {
+                "use": "work",
+                "postOfficeBoxRadio": "false",
+                "district": "Kriegshaber",
+                "street": "Stenglinstraße",
+                "houseNumber": "2",
+                "city": "Augsburg",
+                "postalCode": "86156",
+                "country": "D"
+            }
+        ]
+    },
+    {
+        "id": "a3db8a11-e57c-48d4-9a58-e7961a93130e",
+        "name": "Pflegeheim zur Roten Sonne",
+        "type": "42665001",
+        "identifier": [
+            {
+                "label": "IK-Nummer",
+                "value": "123456789"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "email",
+                "value": "questions@ph-rote-sonne.com",
+                "label": "E-Mail"
+            },
+            {
+                "system": "phone",
+                "value": "089-1234567",
+                "label": "Telefon"
+            }
+        ],
+        "address": [
+            {
+                "use": "work",
+                "postOfficeBoxRadio": "false",
+                "district": "Berg am Laim",
+                "street": "Singvogelgasse",
+                "houseNumber": "23",
+                "additionalLocator": "c",
+                "city": "München",
+                "postalCode": "81671",
+                "country": "D"
+            }
+        ]
+    },
+    {
+        "id": "96ca8f86-2d4d-4c9a-a690-6a841d536f48",
+        "name": "Ärztehaus im Zentrum",
+        "type": "43741000",
+        "identifier": [
+            {
+                "label": "IK-Nummer",
+                "value": "876543219"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "email",
+                "value": "info@aerzte-augsburg.com",
+                "label": "E-Mail"
+            },
+            {
+                "system": "phone",
+                "value": "0821-1234567",
+                "label": "Telefon"
+            }
+        ],
+        "address": [
+            {
+                "use": "work",
+                "postOfficeBoxRadio": "false",
+                "district": "Innenstadt",
+                "street": "Annastraße",
+                "houseNumber": "1",
+                "additionalLocator": "2. Stock",
+                "city": "Augsburg",
+                "postalCode": "86150",
+                "country": "D"
+            }
+        ]
+    },
+    {
+        "id": "d97734d0-5f7c-47e1-9dc5-b2c7857e0b73",
+        "name": "AWONIA - Seniorenheim Augsburg",
+        "type": "42665001",
+        "identifier": [
+            {
+                "label": "IK-Nummer",
+                "value": "753467949"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "email",
+                "value": "kontakt@awo-augsburg.de",
+                "label": "E-Mail"
+            },
+            {
+                "system": "phone",
+                "value": "0821-345800",
+                "label": "Telefon"
+            }
+        ],
+        "address": [
+            {
+                "use": "work",
+                "postOfficeBoxRadio": "false",
+                "street": "Bürgermeister-Bohl-Straße",
+                "houseNumber": "54",
+                "city": "Augsburg",
+                "postalCode": "86157",
+                "country": "D"
+            }
+        ]
+    },
+    {
+        "id": "8e25c41d-dad0-4a90-91c9-64e2a5d70384",
+        "name": "Altenhilfe der Stadt Augsburg",
+        "type": "42665001",
+        "identifier": [
+            {
+                "label": "IK-Nummer",
+                "value": "542057439"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "email",
+                "value": "altenhilfe@augsburg.de",
+                "label": "E-Mail"
+            },
+            {
+                "system": "phone",
+                "value": "08213246100",
+                "label": "Telefon"
+            }
+        ],
+        "address": [
+            {
+                "use": "work",
+                "postOfficeBoxRadio": "false",
+                "street": "Maximilianstraße",
+                "houseNumber": "9",
+                "city": "Augsburg",
+                "postalCode": "86150",
+                "country": "D"
+            }
+        ]
+    }
+]
