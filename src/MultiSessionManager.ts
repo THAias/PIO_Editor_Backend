@@ -3,7 +3,7 @@ import { IUserData } from "@thaias/pio_editor_meta";
 import { SESSION_TIME_LOCAL_VERSION_NUMBER, SESSION_TIME_WEB_VERSION_NUMBER } from "./GlobalVariables";
 
 /**
- * Generates, manages and deletes multiple Sessions.
+ * Generates, manages and deletes multiple Sessions
  * @property {Session[]} sessions Array of Session instances. The user data (first and last name) is used as unique id.
  * @property {number} maxDurationOfSession Maximum duration for all Sessions (default = 24h)
  */

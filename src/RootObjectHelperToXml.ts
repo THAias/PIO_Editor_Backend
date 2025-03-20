@@ -197,6 +197,7 @@ const transformEntriesRecursive = (entry: EntryType | TransformedEntryType): voi
                     transformEntriesRecursive(item);
                 });
             } else {
+                // eslint-disable-next-line @typescript-eslint/no-unused-expressions
                 entry[key.toString()] && transformEntriesRecursive(entry[key.toString()]);
             }
         }

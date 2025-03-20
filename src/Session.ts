@@ -25,7 +25,7 @@ export class Session {
     newPio = (): void => {
         try {
             this.pio = new RootObject(this.userData);
-        } catch (e) {
+        } catch {
             throw Error("Can not create new PIO");
         }
     };

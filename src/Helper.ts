@@ -75,7 +75,7 @@ function findObjectByKey(obj: object, key: string): object | object[] | undefine
 }
 
 /**
- * @returns {object} The lookUpTable as javascript object
+ * @returns {object} The lookUpTable as javascript object.
  * @remarks The lookUpTable stores all valid paths according to the PIO specification and their data types.
  */
 function getLookUpTable(): ResourceLookUpTable {

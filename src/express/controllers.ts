@@ -208,8 +208,12 @@ const closeSession = (_userData: IUserData | undefined): IResponse => {
     if (!validateObject.hasOwnProperty("firstName")) return validateObject as IResponse;
     const userData: IUserData = validateObject as IUserData;
     try {
-        sessionManager.deleteSession(userData);
-        return getIResponseObject(true, "Session successfully closed", userData);
+        if (process.env.VERSION_ENV === "webVersion") {
+            sessionManager.deleteSession(userData);
+            return getIResponseObject(true, "Session successfully closed", userData);
+        } else {
+            return getIResponseObject(true, "Session not closed for further use (localVersion)", userData);
+        }
     } catch (error) {
         return getIResponseObject(
             false,
